@@ -10,3 +10,5 @@ module.exports = function fibonacci(n){
     }
     return(fibon);
 }
+
+//Pair programming with Mbabazi Suzan

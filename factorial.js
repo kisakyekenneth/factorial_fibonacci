@@ -11,3 +11,5 @@ module.exports = function factorial(n){
     }   
 }
 
+//Pair programming with Mbabazi Suzan
+
