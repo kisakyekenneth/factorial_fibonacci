@@ -13,6 +13,8 @@
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.26.0",
     "chai": "^4.3.4",
-    "mocha": "^8.4.0"
+    "eslint": "^7.27.0",
+    "mocha": "^8.4.0",
+    "prettier": "2.3.0"
   }
 }

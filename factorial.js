@@ -1,11 +1,13 @@
 module.exports = function factorial(n){
-    let num = 1;
-    for(let i = 1; i<=n; i++){
-        num = num * i;
+    if(n<2){
+        return 1;
     }
-    return(num);
+    else{
+        let num = 1;
+        for(let i = 2; i<=n; i++){
+            num = num * i;
+        }
+        return(num);
+    }   
 }
 
-// let stat = factorial(4);
-
-// module.exports = function(){}
