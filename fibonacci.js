@@ -1,3 +1,4 @@
+//Pair programming with Kenneth Kisakye with Mbabazi Suzan
 module.exports = function fibonacci(n){
     var fibon = [];
 
@@ -11,4 +12,3 @@ module.exports = function fibonacci(n){
     return(fibon);
 }
 
-//Pair programming with Mbabazi Suzan

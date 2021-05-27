@@ -1,3 +1,4 @@
+//Pair programming Kenneth Kisakye with Mbabazi Suzan
 module.exports = function factorial(n){
     if(n<2){
         return 1;
@@ -8,8 +9,8 @@ module.exports = function factorial(n){
             num = num * i;
         }
         return(num);
-    }   
+    }    
 }
 
-//Pair programming with Mbabazi Suzan
+
 
