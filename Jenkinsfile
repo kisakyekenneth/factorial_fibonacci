@@ -1,5 +1,4 @@
-//Define the variable CODE_CHANGES.
-CODE_CHANGES = getGitChanges(); //Is a ruby script to check if there any changes to code and sets the value to CODE_CHANGES
+
 pipeline {
     agent any
     
@@ -9,9 +8,8 @@ pipeline {
         booleanParam(name: 'executeTests', defaultValue:true, description:'')
     }
     stages {
-        stage("build"){
-             
-            } //CODE_CHANGES is a variable you can define on your own
+        stage("build"){           
+          
             steps{
                     echo "Build version ${NEW_VERSION}"
             }
@@ -19,9 +17,8 @@ pipeline {
 
         stage("test"){
             when{
-                expression{                   
+                expression{                 
 
-                    //Execute only of executeTest is set to true
                     params.executeTests 
                 }
             } 
@@ -32,7 +29,6 @@ pipeline {
 
         stage("deploy"){
             steps{
-
                 echo "Deploying the system"
                 echo "Deploy Version ${VERSION}"
                 
